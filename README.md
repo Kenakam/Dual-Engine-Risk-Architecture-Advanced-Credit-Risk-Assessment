@@ -98,25 +98,25 @@ The execution pipeline standardizes feature validation, transformations, and mat
 
 To maximize the learning signal, ten custom domain-specific features were mathematically synthesized into the model matrices:
 
-* $\text{INCOME\_PER\_PERSON} = \frac{\text{AMT\_INCOME\_TOTAL}}{\text{CNT\_FAM\_MEMBERS}}$
+* $INCOME\\_PER\\_PERSON = \frac{AMT\\_INCOME\\_TOTAL}{CNT\\_FAM\\_MEMBERS}$
 
-* $\text{ANNUITY\_INCOME\_RATIO} = \frac{\text{AMT\_ANNUITY}}{\text{AMT\_INCOME\_TOTAL}}$
+* $ANNUITY\\_INCOME\\_RATIO = \frac{AMT\\_ANNUITY}{AMT\\_INCOME\\_TOTAL}$
 
-* $\text{CREDIT\_TO\_INCOME\_RATIO} = \frac{\text{AMT\_CREDIT}}{\text{AMT\_INCOME\_TOTAL}}$
+* $CREDIT\\_TO\\_INCOME\\_RATIO = \frac{AMT\\_CREDIT}{AMT\\_INCOME\\_TOTAL}$
 
-* $\text{CREDIT\_TO\_ANNUITY\_RATIO} = \frac{\text{AMT\_CREDIT}}{\text{AMT\_ANNUITY}}$
+* $CREDIT\\_TO\\_ANNUITY\\_RATIO = \frac{AMT\\_CREDIT}{AMT\\_ANNUITY}$
 
-* $\text{EXT\_SOURCES\_PROD} = \text{EXT\_SOURCE\_1} \times \text{EXT\_SOURCE\_2} \times \text{EXT\_SOURCE\_3}$
+* $EXT\\_SOURCES\\_PROD = EXT\\_SOURCE\\_1 \times EXT\\_SOURCE\\_2 \times EXT\\_SOURCE\\_3$
 
-* $\text{EXT\_SOURCES\_MEAN} = \frac{\text{EXT\_SOURCE\_1} + \text{EXT\_SOURCE\_2} + \text{EXT\_SOURCE\_3}}{3}$
+* $EXT\\_SOURCES\\_MEAN = \frac{EXT\\_SOURCE\\_1 + EXT\\_SOURCE\\_2 + EXT\\_SOURCE\\_3}{3}$
 
-* $\text{DAYS\_EMPLOYED\_PERCENT} = \frac{\text{DAYS\_EMPLOYED}}{\text{DAYS\_BIRTH}}$
+* $DAYS\\_EMPLOYED\\_PERCENT = \frac{DAYS\\_EMPLOYED}{DAYS\\_BIRTH}$
 
-* $\text{DAYS\_LAST\_PHONE\_CHANGE\_PERCENT} = \frac{\text{DAYS\_LAST\_PHONE\_CHANGE}}{\text{DAYS\_BIRTH}}$
+* $DAYS\\_LAST\\_PHONE\\_CHANGE\\_PERCENT = \frac{DAYS\\_LAST\\_PHONE\\_CHANGE}{DAYS\\_BIRTH}$
 
-* $\text{BUR\_AMT\_REQ\_SUM} = \sum \text{Bureau Credit Inquiries (Hour, Day, Week, Month, Qrt, Year)}$
+* $BUR\\_AMT\\_REQ\\_SUM = \sum Bureau Credit Inquiries (Hour, Day, Week, Month, Qrt, Year)$
 
-* $\text{AMT\_DIFF\_CREDIT\_GOODS} = \text{AMT\_CREDIT} - \text{AMT\_GOODS\_PRICE}$
+* $AMT\\_DIFF\\_CREDIT\\_GOODS = AMT\\_CREDIT - AMT\\_GOODS\\_PRICE$
 
 
 ---
