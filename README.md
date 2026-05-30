@@ -163,6 +163,8 @@ The portfolio of estimators was thoroughly benchmarked:
 
 * **Gradient Boosted Decision Trees (GBDT)**: High-capacity parallel boosters including **XGBoost**, **LightGBM**, and **CatBoost** were trained with custom parameters to capture non-linear relationships.
 
+* **Model Interpretation via SHAP**: Deployed **SHAP (SHapley Additive exPlanations)** to break down individual split parameters and visualize feature impact across gradient boosting decision paths.
+
 
 
 ### 3. Meta-Ensemble Learning (Voting & Stacking Topologies)
